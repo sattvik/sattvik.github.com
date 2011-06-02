@@ -7,6 +7,12 @@
     <version>0.5.2-SNAPSHOT</version>
     <dependencies>
         <dependency>
+            <groupId>com.google.android.tools</groupId>
+            <artifactId>ddmlib</artifactId>
+            <version>r10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>net.sf.proguard</groupId>
             <artifactId>proguard</artifactId>
             <version>4.4</version>
